@@ -1,0 +1,24 @@
+GET http://localhost:3000/usuarios
+
+###
+
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+  "name": "Julio Cesar" 
+}
+
+###
+
+PUT http://localhost:3000/usuarios/5
+Content-Type: application/json
+
+{
+  "name": "Pedro Fuzaca" 
+}
+
+
+###
+
+DELETE http://localhost:3000/usuarios/5
